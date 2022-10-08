@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+:root {
+    --fonteDestaque: 'Orbitron',
+        sans-serif;
+    --CorDestaque:#e6324b;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    font-family: var(--fonteDestaque);
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0, 0, 0, .9);
+    overflow-x: hidden;
+}
+
+
+.SubMenu {
+    list-style: none;
+    padding: 0px 5rem;
+}
+
+.SubMenu__item {
+    border-top: 2px solid rgba(0, 0, 0, .5);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.SubMenu__item:first-child{
+    border-top: none;
+}
+
+.SubMenu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+    font-size: 16px;
+}
